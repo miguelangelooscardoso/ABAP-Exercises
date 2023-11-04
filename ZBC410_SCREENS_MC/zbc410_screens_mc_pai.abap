@@ -19,7 +19,7 @@ MODULE zbc410_screens_mc_pai.
        OF TABLE lt_tab
       WHERE carrid EQ lv_carrid AND connid EQ lv_connid.
 
-    IF lt_tab[] IS NOT INITIAL. " n„o vazia
+    IF lt_tab[] IS NOT INITIAL. " n√£o vazia
       CALL SCREEN '0002'.
     ELSE.
       MESSAGE: 'No flights found!'TYPE 'I'.
