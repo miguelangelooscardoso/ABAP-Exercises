@@ -11,13 +11,13 @@ PARAMETERS: dataset(132) LOWER CASE.
 
 TYPES: BEGIN OF ty_struc,
          nome     TYPE kna1-name1, "Nome 1
-         camp_sel TYPE kna1-sortl, "Campo de seleção
+         camp_sel TYPE kna1-sortl, "Campo de seleÃ§Ã£o
          local    TYPE kna1-ort01, "Local
-         pais     TYPE kna1-land1, "Chave do país
+         pais     TYPE kna1-land1, "Chave do paÃ­s
          idioma   TYPE kna1-spras, "Idioma
-         cod_post TYPE kna1-pstlz, "Código postal
-*         num_cont TYPE kna1-stcd1, "nº contribuinte
-         transp   TYPE kna1-lzone, "Zona de transporte para a qual ou da qual é fornecido
+         cod_post TYPE kna1-pstlz, "CÃ³digo postal
+*         num_cont TYPE kna1-stcd1, "nÂº contribuinte
+         transp   TYPE kna1-lzone, "Zona de transporte para a qual ou da qual Ã© fornecido
        END OF ty_struc.
 
 PARAMETERS: loc_dir TYPE string DEFAULT 'C:\Users\Miguel Cardoso\Downloads\Exercicios BI\Ficheiro Cliente BI.txt'.
