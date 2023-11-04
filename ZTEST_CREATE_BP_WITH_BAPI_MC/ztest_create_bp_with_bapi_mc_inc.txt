@@ -1,0 +1,9 @@
+%_CABAP
+CL_ABAP_DATADESCR=============CT
+CL_ABAP_TYPEDESCR=============CT
+CL_MESSAGE_HELPER=============CU
+CX_DYNAMIC_CHECK==============CU
+CX_ROOT=======================CU
+CX_SY_MESSAGE_ILLEGAL_TEXT====CU
+IF_MESSAGE====================IT
+IF_T100_MESSAGE===============IT

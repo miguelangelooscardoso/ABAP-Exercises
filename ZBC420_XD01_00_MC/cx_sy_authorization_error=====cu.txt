@@ -1,0 +1,19 @@
+class CX_SY_AUTHORIZATION_ERROR definition
+  public
+  inheriting from CX_NO_CHECK
+  final
+  create public .
+
+public section.
+
+  constants CX_SY_AUTHORIZATION_ERROR type SOTR_CONC value 'E61F13F7B4071EE28D9518F079C5446C'. "#EC NOTEXT
+  constants TRANSACTION type SOTR_CONC value 'B23009BD50E49FDEBEE7746BE720A4D7'. "#EC NOTEXT
+  data TRANSACTION_NAME type SYST_TCODE .
+  data USER_NAME type SYST_UNAME .
+
+  methods CONSTRUCTOR
+    importing
+      !TEXTID like TEXTID optional
+      !PREVIOUS like PREVIOUS optional
+      !TRANSACTION_NAME type SYST_TCODE optional
+      !USER_NAME type SYST_UNAME optional .
