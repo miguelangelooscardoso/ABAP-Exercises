@@ -20,8 +20,8 @@ START-OF-SELECTION.
   GET RUN TIME FIELD lv_runtime.
   WRITE: / lv_runtime.
 
-* "O campo do banco de dados ERDAT ou o tipo de resultado da funÁ„o agregada
-*  o componente "VBELN" de "G_ITAB_VBAK" n„o È compatÌvel."
+* "O campo do banco de dados ERDAT ou o tipo de resultado da fun√ß√£o agregada
+*  o componente "VBELN" de "G_ITAB_VBAK" n√£o √© compat√≠vel."
 
   SELECT vbeln kunnr FROM vbak " vbeln erdat kunnr
     INTO CORRESPONDING FIELDS OF TABLE g_itab_vbak
