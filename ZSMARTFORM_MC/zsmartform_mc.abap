@@ -12,7 +12,7 @@ DATA: lt_ekko  TYPE TABLE OF ekko,
 SELECT SINGLE stras
   FROM kna1
   INTO lv_local
-  WHERE ort01 = 'México'.
+  WHERE ort01 = 'MÃ©xico'.
 
 SELECT ebeln bukrs lifnr
   FROM ekko
